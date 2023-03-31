@@ -1,2 +1,2 @@
 # I created a digital business
-![Imgur](https://imgur.com/WryErMm)   
+![Imgur](https://imgur.com/WryErMm.png)   
