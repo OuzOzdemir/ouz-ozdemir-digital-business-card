@@ -1,1 +1,2 @@
-# I created a digital business card
+# I created a digital business
+![Imgur](https://imgur.com/WryErMm)   
