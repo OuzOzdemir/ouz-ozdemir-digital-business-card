@@ -8,7 +8,7 @@ export default function main() {
             <div className="title">Frontend Developer</div>
             <div className="website">github.com/OuzOzdemir</div>
             <div className="contact">
-                <div className="button1"><i className="fa-solid fa-envelope icon"></i><a href = "mailto:ouzozdev@gmail.com">Email</a></div>
+                <div className="button1"><i className="fa-solid fa-envelope icon"></i><a href="mailto:ouzozdev@gmail.com">Email</a></div>
                 <div className="button2"><i className="fa-brands fa-linkedin icon"></i><a href="https://github.com/OuzOzdemir">LinkedIn</a></div>
             </div>
 
