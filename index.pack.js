@@ -486,10 +486,31 @@ function Main() {
     return _react2.default.createElement(
         "footer",
         { className: "footer-container" },
-        _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/otq3xbt.png" }),
-        _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/l89H2Yl.png" }),
-        _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/PcrLUeG.png" }),
-        _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/Ga2CKty.png" })
+        _react2.default.createElement(
+            "div",
+            { className: "socials-container" },
+            _react2.default.createElement(
+                "a",
+                { href: "https://twitter.com/home" },
+                _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/otq3xbt.png" }),
+                " "
+            ),
+            _react2.default.createElement(
+                "a",
+                { href: "https://www.facebook.com/owlthegentleman/" },
+                _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/l89H2Yl.png" })
+            ),
+            _react2.default.createElement(
+                "a",
+                { href: "https://www.instagram.com/owlthetyto/" },
+                _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/PcrLUeG.png" })
+            ),
+            _react2.default.createElement(
+                "a",
+                { href: "https://github.com/OuzOzdemir" },
+                _react2.default.createElement("img", { className: "footer-icon", src: "https://imgur.com/Ga2CKty.png" })
+            )
+        )
     );
 }
 
@@ -537,14 +558,22 @@ function main() {
             _react2.default.createElement(
                 "div",
                 { className: "button1" },
-                _react2.default.createElement("img", { className: "icon", src: "https://imgur.com/9fPNmf5.png" }),
-                " Email"
+                _react2.default.createElement("i", { className: "fa-solid fa-envelope icon" }),
+                _react2.default.createElement(
+                    "a",
+                    { href: "mailto:ouzozdev@gmail.com" },
+                    "Email"
+                )
             ),
             _react2.default.createElement(
                 "div",
                 { className: "button2" },
-                _react2.default.createElement("img", { className: "icon", src: "https://imgur.com/XfNd6Jp.png" }),
-                "Linkedin"
+                _react2.default.createElement("i", { className: "fa-brands fa-linkedin icon" }),
+                _react2.default.createElement(
+                    "a",
+                    { href: "https://github.com/OuzOzdemir" },
+                    "LinkedIn"
+                )
             )
         ),
         _react2.default.createElement(
@@ -568,7 +597,7 @@ function main() {
             _react2.default.createElement(
                 "div",
                 { className: "text" },
-                "Body building. Basketball. Coffee  Movies. Manga. Anime Series. Hiking. Cooking. Music."
+                "Body building. Basketball. Coffee. Movies. Manga. Anime Series. Hiking. Cooking. Music."
             )
         )
     );
